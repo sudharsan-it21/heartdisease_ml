@@ -3,19 +3,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
-# sidebar for navigation
-with st.sidebar:
-    
-    selected = option_menu('Heart Disease Prediction System',
-                          
-                          ['HEART ',
-                           ],
-                          default_index=0)
-    
 
-# Heart Disease Prediction Page
-if (selected == 'Heart Disease Prediction'):
-  
     # page title
     st.title('Heart Disease Prediction ')
     
