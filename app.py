@@ -6,7 +6,7 @@ heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
   
     # page title
-    st.title('Heart Disease Prediction using ML')
+  st.title('Heart Disease Prediction using ML')
     
     col1, col2, col3 = st.columns(3)
     
