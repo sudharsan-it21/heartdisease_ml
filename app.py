@@ -8,7 +8,7 @@ with st.sidebar:
     
     selected = option_menu('Heart Disease Prediction System',
                           
-                          [,
+                          [
                            ],
                           default_index=0)
     
